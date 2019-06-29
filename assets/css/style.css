@@ -1,8 +1,6 @@
 body {
-  /* font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  color: #777777; */
   background-image: url("../images/united-squares-negative.jpg");
-  /* background-color: black; */
+
 }
 
 /* This is the main header container to hold name and links */
@@ -69,7 +67,6 @@ a:active {
 
 .maincontent {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-  /* font-family: "Montserrat", sans-serif; */
   line-height: 20px;
   background-color: #ffffff;
   border-color: #dddddd;
@@ -104,7 +101,7 @@ h1 {
 }
 
 footer {
-  /* position: relative; */
+
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #666666;
   border-top: 8px solid #4aaaa5;
@@ -195,7 +192,6 @@ label:hover {
   height: 200px;
   padding: 12px 20px;
   margin: 8px 10px;
-  /* padding: 10px 5px;  */
   border: 2px solid #4aaaa5;
   resize: none;
 }
@@ -251,20 +247,8 @@ label:hover {
     color: lightblue;
   }
 
-  a:focus {
-    background-color: rgba(60, 120, 146, 0.616);
-    color: #666666;
-  }
+  
 
-  a:active {
-    color: aquamarine;
-  }
-
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
 
   .maincontent {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -278,15 +262,11 @@ label:hover {
     padding: 20px 10px;
   }
 
-  .aboutme {
-    color: #4aaaa5;
-  }
-
+ 
   h1 {
-    font-weight: bolder;
+    
     font-size: 20px;
-    padding: 5px;
-    margin-block: 5px;
+  
   }
 
   #content {
@@ -300,47 +280,26 @@ label:hover {
     padding: 20px 10px;
   }
 
-  footer {
-    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    margin-top: 60px;
-    padding: 10px;
-    color: #777777;
-
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+ 
 
   .contact content {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
-    max-width: 965px;
+    
   }
 
   #fname {
     width: 80%;
-
     border: 2px solid #4aaaa5;
   }
 
   #email {
     width: 80%;
-
     resize: none;
     border: 2px solid #4aaaa5;
   }
 
-  input[type="text"]:focus {
-    background-color: lightgray;
-    color: black;
-  }
-
-  label:hover {
-    background-color: lightgrey;
-  }
+ 
 
   #message {
     width: 80%;
@@ -349,17 +308,7 @@ label:hover {
     resize: none;
   }
 
-  .btn {
-    width: 100px;
-    border: none;
-    display: inline-block;
-    padding: 12px 20px;
-    margin: 8px 10px;
-    color: #dddddd;
-    background-color: #4aaaa5;
-    text-align: center;
-    box-sizing: border-box;
-  }
+
 }
 
 @media screen and (max-width: 768px) and (min-width:641px) {
@@ -369,26 +318,19 @@ label:hover {
     background-image: url("../images/united-squares-negative.jpg");
     /* background-color: black; */
   }
-  
+
   /* This is the main header container to hold name and links */
   .mainheader {
     font-family: "Georgia", Times, "Times New Roman", serif;
     max-width: 960px;
     height: 50px;
     display: block;
-    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 80px;
     background-color: #ffffff;
   }
-  
-  .name {
-    font-size: 20px;
-    background-color: #4aaaa5;
-    color: #777777;
-    float: left;
-    width: fit-content;
-    padding: 15px;
-  }
-  
+
+
   li,
   a {
     display: block;
@@ -396,42 +338,10 @@ label:hover {
     padding: 10px;
     color: #666666;
   }
-  
-  li {
-    float: right;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0px;
-    background-color: #ffffff;
-    color: #777777;
-    position: relative;
-    display: inline;
-    max-height: 50px;
-    overflow: hidden;
-  }
-  
-  a:hover {
-    color: lightblue;
-  }
-  
-  a:focus {
-    background-color: rgba(141, 170, 182, 0.616);
-    color: #666666;
-  }
-  
-  a:active {
-    color: aquamarine;
-  }
-  
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-  
+
+h1{
+  font-size: 20px;
+}
   .maincontent {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     /* font-family: "Montserrat", sans-serif; */
@@ -443,22 +353,68 @@ label:hover {
     color: #777777;
     margin: 20px 80px;
   }
-  
-  .aboutme {
-    color: #4aaaa5;
+
+}
+
+@media screen and (max-width:980px) and (min-width:769px) {
+
+  .mainheader {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    height: 50px;
+    display: block;
+    margin: 0px 20px ;
+    background-color: #ffffff;
   }
-  
+
+  .name {
+    font-size: 20px;
+    background-color: #4aaaa5;
+    color: #777777;
+    float: left;
+    width: fit-content;
+    padding: 15px;
+  }
+
+  li,
+  a {
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    color: #666666;
+  }
+
+  li {
+    float: right;
+  }
+
+h1{
+  font-size: 20px;
+}
+  .maincontent {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    line-height: 20px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+    left: 200px;
+    color: #777777;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 200px;
+  }
+
   h1 {
     font-weight: bolder;
     font-size: 30px;
     padding: 5px;
     margin-block: 5px;
   }
-  
+
   .image {
     float: left;
   }
-  
+
   #content {
     padding: 5px;
     font-size: 30px;
@@ -466,29 +422,14 @@ label:hover {
     position: relative;
     line-height: 20px;
   }
-  
-  footer {
-    /* position: relative; */
-    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    margin-top: 60px;
-    padding: 10px;
-    color: #777777;
-  
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
+
   /* Porfolio images styling */
-  
+
   .portfolio content {
     display: block;
     float: left;
   }
-  
+
   .portfolioimages {
     float: left;
     background-size: contain;
@@ -503,12 +444,12 @@ label:hover {
     margin: 10px 10px;
     z-index: 1;
   }
-  
+
   .img1 {
     position: relative;
     float: left;
   }
-  
+
   .imagename {
     top: 65%;
     padding: 10px 0px;
@@ -522,58 +463,6 @@ label:hover {
     text-align: center;
     font-weight: bolder;
   }
-  
-  .contact content {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    max-width: 965px;
-  }
-  
-  #fname {
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 10px;
-    resize: none;
-    border: 2px solid #4aaaa5;
-  }
-  
-  #email {
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 10px;
-    resize: none;
-    border: 2px solid #4aaaa5;
-  }
-  
-  input[type="text"]:focus {
-    background-color: lightgray;
-    color: black;
-  }
-  
-  label:hover {
-    background-color: lightgrey;
-  }
-  
-  #message {
-    width: 90%;
-    height: 200px;
-    padding: 12px 20px;
-    margin: 8px 10px;
-    /* padding: 10px 5px;  */
-    border: 2px solid #4aaaa5;
-    resize: none;
-  }
-  
-  .btn {
-    width: 100px;
-    border: none;
-    display: inline-block;
-    padding: 12px 20px;
-    margin: 8px 10px;
-    color: #dddddd;
-    background-color: #4aaaa5;
-    text-align: center;
-    box-sizing: border-box;
-  }
-  
+
+
 }
