@@ -140,9 +140,7 @@ footer {
 .img1{position: relative;
 float:left;}
 
-/* h3{position: absolute;
-bottom: 0;
-z-index: 1;} */
+
 
 .imagename {
   top: 65%;
@@ -242,7 +240,6 @@ label:hover {
     width: 100%;
     display: block;
     font-size: 15px;
-     /* padding: 10px 10px;  */
     color: #666666;
     background-color: #ffffff; 
     align-content: center;
@@ -254,7 +251,7 @@ label:hover {
      }
  
   a:hover {
-    color: rgb(214, 38, 38);
+    color: lightblue;
   }
   a:focus {
     background-color: rgba(60, 120, 146, 0.616);
@@ -297,7 +294,6 @@ label:hover {
   #content {
     padding: 5px;
     font-size: 30px;
-    
     line-height: 20px;
   }
   
@@ -363,7 +359,7 @@ label:hover {
   }
 }
 
-  @media screen and  (min-width:641)and (max-width: 768px) {
+  @media screen and  (max-width: 768px) {
     .mainheader {
       font-family: "Georgia", Times, "Times New Roman", serif;
       height: 50px;
@@ -392,7 +388,6 @@ label:hover {
       width: 100%;
       display: block;
       font-size: 15px;
-       /* padding: 10px 10px;  */
       color: #666666;
       background-color: #ffffff; 
       align-content: center;
@@ -431,7 +426,7 @@ label:hover {
       border-style: solid;
       /* left: 200px; */
       color: #777777;
-      margin: 80px 20px;
+      margin: 80px 80px;
       padding: 0px 20px;
     }
     .aboutme {
@@ -448,7 +443,6 @@ label:hover {
     #content {
       padding: 5px;
       font-size: 30px;
-      
       line-height: 20px;
     }
     
@@ -466,7 +460,52 @@ label:hover {
       bottom: 0;
       width: 100%;
     }
+    .contact content {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bolder;
+      max-width: 965px;
+    }
     
+    #fname {
+      width: 80%;
+      
+      border: 2px solid #4aaaa5;
+    }
+    
+    #email {
+      width: 80%;
+      
+      resize: none;
+      border: 2px solid #4aaaa5;
+    }
+    
+    input[type="text"]:focus {
+      background-color: lightgray;
+      color: black;
+    }
+    
+    label:hover {
+      background-color: lightgrey;
+    }
+    
+    #message {
+      width: 80%;
+      height: 100px;
+      border: 2px solid #4aaaa5;
+      resize: none;
+    }
+    .btn {
+      width:100px;
+      border: none;
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 8px 10px;
+      color: #dddddd ;
+      background-color: #4aaaa5;
+      text-align: center;
+      box-sizing: border-box
+    
+    }
     }
   @media screen and (max-width: 980px) {
     body{
